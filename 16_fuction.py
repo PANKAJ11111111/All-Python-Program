@@ -12,6 +12,9 @@ def product(a,b):
 def default(name="guest"):
     print(f"hello {name}")
 
+def totalbill(price, qunt):
+    return price*qunt
+
 
 greeting()
 
@@ -61,6 +64,8 @@ def evenodd():
         return "odd"
 
 print(evenodd())
+
+print(totalbill(10,9))
 
 
        
