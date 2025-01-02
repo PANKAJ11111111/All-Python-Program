@@ -266,6 +266,8 @@ o1 = order("kaju",450)
 o2 = order("badam", 900)
 
 print(o1>o2)
+
+e1 = employee()
         
 
         
